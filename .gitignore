@@ -1,0 +1,5 @@
+*.cfg
+*.log
+*.csv
+output
+.DS_Store
