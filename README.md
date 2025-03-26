@@ -17,10 +17,10 @@ Example:
 
 Content of the config file:
 
-appd_src_url='http://src_account.saas.appdynamics.com:443' # appd source controller url<br>
-appd_src_account='src_account' # appd account<br>
-appd_src_api_user='<user>' # appd api username<br>
-appd_src_api_password='<password>' # appd api password for basic auth<br>
+appd_url='http://src_account.saas.appdynamics.com:443' # appd source controller url<br>
+appd_account='src_account' # appd account<br>
+appd_api_user='<user>' # appd api username<br>
+appd_api_password='<password>' # appd api password for basic auth<br>
 appd_api_secret='<secret>' # appd api secret for oauth <br>
 appd_src_proxy='' # http proxy<br>
 application_names='.\*' # application names regex<br>
