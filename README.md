@@ -17,12 +17,12 @@ Example:
 
 Content of the config file:
 
-appd_url='http://src_account.saas.appdynamics.com:443' # appd source controller url<br>
-appd_account='src_account' # appd account<br>
+appd_url='https://<account>.saas.appdynamics.com:443' # appd source controller url<br>
+appd_account='<account>' # appd account<br>
 appd_api_user='<user>' # appd api username<br>
 appd_api_password='<password>' # appd api password for basic auth<br>
 appd_api_secret='<secret>' # appd api secret for oauth <br>
-appd_src_proxy='' # http proxy<br>
+appd_proxy='' # http proxy<br>
 application_names='.\*' # application names regex<br>
 backend_type='.\*' # backend type regex. ex for DB only: JDBC|ADODOTNET|Cassandra <br>
 skip_thread_tasks='false' # set true to skip searching backends in thread tasks (faster but less reliable) <br>
